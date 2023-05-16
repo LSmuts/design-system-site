@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	height: 100%;
+}
+
+body {
+	background-image: url("images/body_background.jpg");
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Section */
+
+header {
+	background-color: rgba(255,255,255,.5);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+header h1 {
+    margin: auto;
+    padding: 20px 20px;
+    display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+}
+
+header ul {
+    margin: auto;
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header li {
+    font-size: 18px;
+    display: inline-block;
+    margin: auto 50px;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+	color: #000;
+}
+
+nav a:hover {
+	color: #77B9B7;
+}
+
+.anchor {
+        position: relative;
+        left: 0px;
+        top: -80px;
+}
+
+/* Colours Section */
+
+#colours {
+	background-color: rgba(255,255,255,.5);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+.special-headings {
+	font-size: 32px;
+	text-align: center;
+	margin-top: 20px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px
+}
+
+.palette-row1 {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.colour-swatch {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 40px;
+	width: 20%;
+	height: 150px;
+	text-align: center;
+}
+
+.colour-name {
+	font-size: 22px
+}
+
+.colour-hex {
+	font-size: 16px;
+}
+
+#rich-black {
+	color: #FFF;
+	background-color: #010B13;
+	border-radius: 20px;
+}
+
+#auro-metal {
+	color: #FFF;
+	background-color: #6F7F88;
+	border-radius: 20px;
+}
+
+#cerulean {
+	color: #FFF;
+	background-color: #007BA7;
+	border-radius: 20px;
+}
+
+.palette-row2 {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cerulean-tint {
+	color: #FFF;
+	background-color: #76DBFF;
+	border-radius: 20px;
+}
+
+#white-smoke {
+	color: #000;
+	background-color: #F5F5F5;
+	border-radius: 20px;
+	border: 1px solid #6F7F88;
+}
+
+/* Fonts Section */
+
+#fonts {
+	background-color: rgba(255,255,255,.5);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+	margin-top: 40px;
+}
+
+#font-container {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.font-box {
+	border-left: 1px solid #000;
+	padding-left: 30px;
+    margin: 20px 60px;
+    min-height: 100px;
+    min-width: 20%;
+}
+
+.font-examples {
+	text-align: left;
+	margin: 40px auto;
+}
+
+#merriweather-bold {
+	font-family: "Merriweather";
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#merriweather-regular {
+	font-family: "Merriweather";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#merriweather-italic {
+	font-family: "Merriweather";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#plex-bold {
+	font-family: "IBM Plex Mono";
+	font-size: 20px;
+	font-weight: 700;
+}
+
+#plex-regular {
+	font-family: "IBM Plex Mono";
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#plex-italic {
+	font-family: "IBM Plex Mono";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* Text Styles Section */
+
+#text-styles {
+	background-color: rgba(255,255,255,.5);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+#styles-container {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.text-style-box {
+	border-left: 1px solid #000;
+	padding-left: 30px;
+    margin: 20px 60px;
+    min-height: 100px;
+    min-width: 20%;
+}
+
+/* Buttons Section */
+
+#buttons-section {
+	background-color: rgba(255,255,255,.5);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+#buttons-container {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.buttons {
+    display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+	padding: 0 60px;
+}
+
+#solid-button {
+	color: #FFF;
+	background-color: #007BA7;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border: none;
+}
+
+#transparent-button {
+	color: #000;
+	background-color: transparent;
+	border: 2px solid #007BA7;
+	border-radius: 10px;
+}
+
+/* Footer Section */
+
+footer {
+	text-align: center;
+	margin-top: 60px;
+}
